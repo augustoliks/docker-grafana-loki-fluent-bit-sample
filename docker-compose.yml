@@ -78,6 +78,7 @@ services:
       - xpack.graph.enabled=false
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
 
+      
   graylog:
     image: graylog/graylog:2.5
     container_name: graylog
