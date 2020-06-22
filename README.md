@@ -105,7 +105,7 @@ To see the logs on Grafana dashboard, you can follow [YouTube video](https://you
 
 4. Now, go to 3rd tab `Explore` from the left sidebar or http://localhost:3000/explore, click on `Log Labels` dropdown, here you will see `container_name` and `job` labels, these are same labels that we have mentioned in the `fluent-bit.conf` file with `LabelKeys` key.
 
-5. Click on `container_name`, now, you should see our app service container name in the next step else type `{container_name="express-app"}` in the Loki query search. Click on that and that's it, now you should be able to see the container logs, these are the logs that we generated after starting up our app service.
+5. Click on `container_name`, now, you should see our app service container name in the next step else type `{container_name="/express-app"}` in the Loki query search. Click on that and that's it, now you should be able to see the container logs, these are the logs that we generated after starting up our app service.
 
 ![Grafana Explore](https://raw.githubusercontent.com/thakkaryash94/docker-grafana-loki-fluent-bit-sample/master/docs/img/explore.png)
 
